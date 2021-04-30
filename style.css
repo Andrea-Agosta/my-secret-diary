@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(56, 56, 56);
+}
+
+#homepage {
+    background-image : url(./images/homepage.jpg);
+    background-size: cover;    
+    background-repeat: repeat-y;
+}
+
+.container-sm {
+    margin-top: 10%;
+    width: fit-content;
+}
+
+#box {
+    background-color: white;
+    opacity: 95%;
+    border-radius: 20px;
+    padding : 15px 80px;
+}
+
+input {
+    margin-top: 5px;
+    width: 95%;
+}
+
+label {
+    margin-top: 10px;
+}
+
+button {
+    margin: 15px 0 15px 0;
+    float:left;
+}
+
+#logInTab {
+    width:50%;
+}
+
+#registerTab {
+    width: 50%;
+}
+
+#window {
+    margin: 0 -50px 20px -50px;
+}
+
+.nav .nav-link.active {
+    background-color: #f5e36f;
+    color:black;
+    font-weight: bold;
+}
+
+#nav-tabContent {
+    border: 1px solid lightgray;
+}
+
+.container {
+    margin: 10px;
+}
+
+.btn-color {
+    background-color: #f5e36f;
+    font-weight: bold;
+    margin-top:20px;
+}
+
+::placeholder {
+    color: #ffc400;
+}
+
+#checkLog {
+    margin-top: 30px;
+    margin-left: -90px;
+}
+
+#labChek {
+    margin-top: 24px;
+    margin-left: -65px;
+}
+
+#checkLog:checked {
+    background-color: #f5e36f;
+}
+
+#checkReg {
+    margin-left: -90px;
+    margin-top: 30px;
+}
+
+#regChek {
+    margin-top: 24px;
+    margin-left: -65px;
+}
+
+#checkReg:checked {
+    background-color: #f5e36f;
+}
+
+#myDiary {
+    background-image : url(./images/diary.jpg);
+    background-position-y: 70px;
+    background-size: cover;    
+    background-repeat: repeat-y;
+}
+
+#textareaContainer {
+    margin-top: 45px;
+    width: 770px;
+    margin-left: 35%;
+    opacity: 85%;
+}
+
+@media (max-width: 576px) {
+    .container-sm {
+        margin-top: 30%;
+    }
+
+    #br {
+        display: contents !important;
+    }
+
+    #checkLog {
+        margin-left: 0px;
+        margin-top: 43px;
+    }
+    
+    #labChek {
+        margin-left: 5px;
+        margin-top: 38px;
+    }
+    
+    #checkReg {
+        margin-left: 10px;
+    }
+    
+    #regChek {
+        margin-left: 5px;
+    }
+
+    .form-check {
+        padding-left:0;
+    }
+}
